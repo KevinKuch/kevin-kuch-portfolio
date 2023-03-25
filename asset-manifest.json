@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/kevin-kuch-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/kevin-kuch-portfolio/static/js/main.0eb9a5af.js",
-    "static/js/787.128fc6e9.chunk.js": "/kevin-kuch-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/kevin-kuch-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/kevin-kuch-portfolio/static/css/main.96b2994c.css",
+    "main.js": "/kevin-kuch-portfolio/static/js/main.c820e151.js",
     "index.html": "/kevin-kuch-portfolio/index.html",
-    "main.073c9b0a.css.map": "/kevin-kuch-portfolio/static/css/main.073c9b0a.css.map",
-    "main.0eb9a5af.js.map": "/kevin-kuch-portfolio/static/js/main.0eb9a5af.js.map",
-    "787.128fc6e9.chunk.js.map": "/kevin-kuch-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.96b2994c.css.map": "/kevin-kuch-portfolio/static/css/main.96b2994c.css.map",
+    "main.c820e151.js.map": "/kevin-kuch-portfolio/static/js/main.c820e151.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0eb9a5af.js"
+    "static/css/main.96b2994c.css",
+    "static/js/main.c820e151.js"
   ]
 }
