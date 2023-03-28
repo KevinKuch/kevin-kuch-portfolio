@@ -1,8 +1,8 @@
 import React from 'react';
 import './About.css';
-import AboutImg from '../../assets/about.png';
+import AboutImg from '../../assets/about.jpg';
 import CV from '../../assets/Kuch_Kevin_cv1.pdf';
-import Info from './Info';
+
 
 export default function About({}) {
 
@@ -13,13 +13,10 @@ export default function About({}) {
             <span className="section__subtitle"> My introduction</span>
 
             <div className="about__container container grid">
-                <img src={AboutImg} alt="image boy avec lunette" className="about__img" />
-
+                <img src={AboutImg} alt="image d'un portable" className='about__img'/>
                 <div className="about__data">
-                    <Info />
-
                     <p className="about__description">Je suis un développeur Front-end passionné par l'expérience utilisateur et l'esthétique des sites web. Actuellement étudiant en 2e année au Collège de Maisonneuve en technique d'intégration multimédia, j'apprends constamment de nouvelles compétences pour améliorer mes projets web réactives.</p>
-
+                    
                     <a download="" href={CV} className="button button--flex">Download CV 
                     <svg
                 className="button__icon"
