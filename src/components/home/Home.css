@@ -103,6 +103,40 @@
     color: var(--title-color);
 }
 
+.home__skills {
+    display: flex;
+    align-items: center;
+}
+
+.home__skills p {
+    margin-right: var(--mb-0-5);
+
+}
+
+.home__logo__skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+.home__logo__skills li {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    cursor: pointer;
+    display: flex;
+    height: 3.5rem;
+    justify-content: center;
+    width: 3.5rem;
+}
+
+.home__logo__skills li img {
+    height: auto;
+    width: 2.5rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
