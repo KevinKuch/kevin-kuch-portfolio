@@ -58,7 +58,7 @@ export default function Data({}) {
             </h1>
             <h3 className="home__subtitle">Développeur Front-end</h3>
             <p className="home__description">
-                Je suis un développeur Front-end passionné par l'expérience utilisateur et l'esthétique des sites web. Actuellement étudiant en 2e année au Collège de Maisonneuve en technique d'intégration multimédia, j'apprends constamment de nouvelles compétences pour améliorer mes projets web.
+                Je suis un développeur Front-end passionné par l'expérience utilisateur et l'esthétique des sites web. Actuellement étudiant en 2e année au Collège de Maisonneuve en technique d'intégration multimédia, j'apprends constamment de nouvelles compétences pour améliorer mes projets web réactives.
             </p>
             <a href="#" className="button button--flex">
                 Contact
