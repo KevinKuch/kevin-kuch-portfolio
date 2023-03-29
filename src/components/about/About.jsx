@@ -13,7 +13,7 @@ export default function About({}) {
             <span className="section__subtitle"> My introduction</span>
 
             <div className="about__container container grid">
-                <img src={AboutImg} alt="image d'un portable" className='about__img'/>
+                <img src={AboutImg} alt="d'un portable" className='about__img'/>
                 <div className="about__data">
                     <p className="about__description">Je suis un développeur Front-end passionné par l'expérience utilisateur et l'esthétique des sites web. Actuellement étudiant en 2e année au Collège de Maisonneuve en technique d'intégration multimédia, j'apprends constamment de nouvelles compétences pour améliorer mes projets web réactives.</p>
                     

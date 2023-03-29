@@ -1,6 +1,7 @@
 import './Projet.css';
 import AboutImg from '../../assets/about.jpg';
-import About from '../about/About';
+import ProjetImg1 from '../../assets/projet_1.jpg'
+
 
 export default function Projet({}) {
 
@@ -14,12 +15,12 @@ export default function Projet({}) {
 
                 <div className="pro projet__content projet-1">
                     <div className='projet__img'>
-                        <a href="#" target="_blank" rel="noreferrer">
-                            <img src={AboutImg} alt="website" />
+                        <a href="https://kevinkuch.github.io/TP_site_astronomie/" target="_blank" rel="noreferrer">
+                            <img src={ProjetImg1} alt="website" />
                         </a>
                     </div>
                     <div className='projet__text'>
-                        <h3 className='projet__title'>Titre projet</h3>
+                        <h3 className='projet__title'>Site d'astronomie</h3>
                         <p className='projet__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequuntur voluptatibus natus molestias dolor dolore beatae architecto id? Deleniti, voluptatum.</p>
                         <div className="projet__stack">
                         <ul className='home__logo__skills'>
@@ -30,11 +31,11 @@ export default function Projet({}) {
                          </ul>
                         </div>
                         <div className="projet__link">
-                            <a href="#" target="_blank" rel="noreferrer" >
+                            <a href="https://github.com/KevinKuch/TP_site_astronomie" target="_blank" rel="noreferrer" >
                                 Github
                                 <i className="uil uil-github"></i>
                             </a>
-                            <a href="#" target="_blank" rel="noreferrer">
+                            <a href="https://kevinkuch.github.io/TP_site_astronomie/" target="_blank" rel="noreferrer">
                                 Demo
                                 <i className="uil uil-external-link-alt"></i>
                             </a>
