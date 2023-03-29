@@ -42,6 +42,8 @@ export default function Projet({}) {
                         </div>
                     </div>
                 </div>
+                
+                {/* ********************************************************  */}
                 <div className="pro projet__content projet-1">
                     <div className='projet__text'>
                         <h3 className='projet__title'>Titre projet</h3>

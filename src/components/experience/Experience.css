@@ -1,0 +1,8 @@
+.badge-skills {
+    padding-left: 1rem;
+}
+
+.experience__skill {
+    display: flex;
+    gap:3rem;
+}
