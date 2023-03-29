@@ -9,8 +9,8 @@ export default function About({}) {
 
     return (
         <section className='About section' id='about'>
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle"> My introduction</span>
+            <h2 className="section__title">À propos</h2>
+            <span className="section__subtitle">Qui suis-je?</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="d'un portable" className='about__img'/>

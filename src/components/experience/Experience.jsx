@@ -17,13 +17,13 @@ export default function Experience({}) {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="06/2022 - 03/2023"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: '#767676', color: '#fff' }}
                 icon={<WorkIcon />}
                 
             >
             
             <h3 className="vertical-timeline-element-title">Intégrateur Web</h3>
-            <h4 className="vertical-timeline-element-subtitle">Montréal, Québec</h4>
+            <h4 className="vertical-timeline-element-subtitle">Longueuil, Québec</h4>
             <div className="experience__skill">
                 <p className='badge-skills'><Badge color="primary" badgeContent={"Html"}></Badge></p>
                 <p className='badge-skills'><Badge color="primary" badgeContent={"Less"}></Badge></p>
@@ -40,7 +40,7 @@ export default function Experience({}) {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="2020 - 2023"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: '#767676', color: '#fff' }}
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Hôte</h3>
@@ -51,7 +51,7 @@ export default function Experience({}) {
   
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                iconStyle={{ background: '#767676', color: '#fff' }}
                 icon={<HourglassTopIcon />}
             />
             </VerticalTimeline>
