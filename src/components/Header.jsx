@@ -19,12 +19,12 @@ export default function Header() {
                 </li>
                 <li className="nav__item">
                     <a href="#about" className="nav__link">
-                        <i className="uil uil-user nav__icon"></i> About
+                        <i className="uil uil-user nav__icon"></i> À propos
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="#skill" className="nav__link">
-                        <i className="uil uil-file-alt nav__icon"></i> Skills
+                    <a href="#projet" className="nav__link">
+                        <i className="uil uil-file-alt nav__icon"></i> Projets
                     </a>
                 </li>
                 <li className="nav__item">

@@ -138,6 +138,10 @@ img {
   font-size: 1.5rem;
 }
 
+.no-pointer {
+  cursor: default;
+}
+
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
