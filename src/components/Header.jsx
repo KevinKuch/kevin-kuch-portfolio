@@ -14,7 +14,7 @@ export default function Header() {
             <ul className="nav__list grid">
                 <li className="nav__item">
                     <a href="#home" className="nav__link active-link">
-                        <i className="uil uil-estate nav__icon"></i> Home
+                        <i className="uil uil-home nav__icon"></i> Home
                     </a>
                 </li>
                 <li className="nav__item">
@@ -25,11 +25,6 @@ export default function Header() {
                 <li className="nav__item">
                     <a href="#projet" className="nav__link">
                         <i className="uil uil-file-alt nav__icon"></i> Projets
-                    </a>
-                </li>
-                <li className="nav__item">
-                    <a href="#portefolio" className="nav__link">
-                        <i className="uil uil-scenery nav__icon"></i> Portefolio
                     </a>
                 </li>
                 <li className="nav__item">
