@@ -115,7 +115,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 6rem 0 6rem;
 }
 
 .section__title {
@@ -132,6 +132,10 @@ img {
 .section__title,
 .section__subtitle {
   text-align: center;
+}
+
+.uil {
+  font-size: 1.5rem;
 }
 
 /*=============== LAYOUT ===============*/
