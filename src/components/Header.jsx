@@ -34,7 +34,7 @@ export default function Header() {
                 </li>
                 <li className="nav__item">
                     <a href="#experiences" className="nav__link">
-                    <i className="uil uil-graduation-cap nav__icon"></i> Education
+                    <i className="uil uil-graduation-cap nav__icon"></i> Éducation
                     </a>
                 </li>
             </ul>

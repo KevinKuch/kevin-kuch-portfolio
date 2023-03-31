@@ -16,41 +16,48 @@ export default function Education({}) {
             <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="06/2022 - 03/2023"
+                date="2021 - ajourd'hui"
                 iconStyle={{ background: '#767676', color: '#fff' }}
                 icon={<SchoolIcon />}
                 
             >
             
-            <h3 className="vertical-timeline-element-title">Intégrateur Web</h3>
-            <h4 className="vertical-timeline-element-subtitle">Longueuil, Québec</h4>
-            
-            
-            <p>Développer et ajouter des fonctionnalités dans des applications de formation en ligne.</p>
-            <p>Effectuer un contrôle de qualité au courant des formations.</p>
-            <p>Intégrer les formations dans le Framework (Zest) de Pardeux à partir des gabarits.</p>
-            <p>Participer au développement et améliorer le Framework (Zest) de Pardeux.</p>
+            <h3 className="vertical-timeline-element-title">DEC Technique d'intégration multimédia</h3>
+            <h4 className="vertical-timeline-element-subtitle">Collège de Maisonneuve, montréal</h4>
             
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2020 - 2023"
+                date="2019 - 2020"
                 iconStyle={{ background: '#767676', color: '#fff' }}
                 icon={<SchoolIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Hôte</h3>
-                <h4 className="vertical-timeline-element-subtitle">Montréal, Québec</h4>
-                <p>Organisation des tables.</p>
-                <p>Répondre aux besoins des clients.</p>
-                <p>Planifier les réservations.</p>
-  
+                <h3 className="vertical-timeline-element-title">Étude en Design de présentation</h3>
+                <h4 className="vertical-timeline-element-subtitle">Cégèp de Vieux-Montréal, montréal</h4>
             </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="2018"
+                iconStyle={{ background: '#767676', color: '#fff' }}
+                icon={<SchoolIcon />}
+                
+            >
+            
+            <h3 className="vertical-timeline-element-title">DEC Sciences humaines - profil individu</h3>
+            <h4 className="vertical-timeline-element-subtitle">Collège de Maisonneuve, montréal</h4>
+            
+            </VerticalTimelineElement>
+
             <VerticalTimelineElement
                 iconStyle={{ background: '#767676', color: '#fff' }}
                 icon={<HourglassTopIcon />}
             />
+
             </VerticalTimeline>
+
+            
         </section>
     );
 }
