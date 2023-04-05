@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Projet from './components/projet/Projet';
 import Experience from './components/experience/Experience';
 import Education from './components/education/Education';
+import Footer from './components/footer/Footer';
 
 export default function App() {
   return (
@@ -19,6 +20,10 @@ export default function App() {
         <Experience />
         <Education />
       </main>
+      
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

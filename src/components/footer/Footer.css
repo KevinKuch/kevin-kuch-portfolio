@@ -1,0 +1,25 @@
+.Footer {
+    background-color: #767676;
+
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.footer__social a {
+    padding: 0 1rem;
+}
+
+.footer__social-icon {
+    color: #fdfdfd;
+}
+
+.copyright {
+    color: #fdfdfd;
+    text-align: center;
+    padding: 1rem 0;
+}
