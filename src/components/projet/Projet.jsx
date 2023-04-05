@@ -21,7 +21,7 @@ export default function Projet({}) {
                     </div>
                     <div className='projet__text'>
                         <h3 className='projet__title'>Site d'astronomie</h3>
-                        <p className='projet__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequuntur voluptatibus natus molestias dolor dolore beatae architecto id? Deleniti, voluptatum.</p>
+                        <p className='projet__description'>Refonte site web UI/UX dans le cadre du cours de Design & Interactivité. Nouveau design, contenu optimisé et fonctionnalités interactives ajoutées pour améliorer l'expérience utilisateur.</p>
                         <div className="projet__stack">
                         <ul className='home__logo__skills'>
                     
