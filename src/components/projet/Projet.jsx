@@ -2,6 +2,7 @@ import './Projet.css';
 import AboutImg from '../../assets/about.jpg';
 import ProjetImg1 from '../../assets/projet_1.jpg'
 import ProjetImg2 from '../../assets/projet_2.jpg'
+import ProjetImg3 from '../../assets/projet_3.jpg'
 
 
 export default function Projet({}) {
@@ -73,6 +74,34 @@ export default function Projet({}) {
                         <a href="https://kevinkuch.github.io/ToDoApp/" target="_blank" rel="noreferrer">
                             <img src={ProjetImg2} alt="To do app" />
                         </a>
+                    </div>
+                </div>
+
+                {/* ********************************************************  */}
+                <div className="pro projet__content projet-3">
+                    <div className='projet__img'>
+                        <a href="https://kevinkuch.github.io/1J1_first_game/" target="_blank" rel="noreferrer">
+                            <img src={ProjetImg3} alt="To do app" />
+                        </a>
+                    </div>
+                    <div className='projet__text'>
+                        <h3 className='projet__title'>Jeu en Javascript</h3>
+                        <p className='projet__description'>Un jeu fait avec Javascript durant ma première session. Ceci est dans le but d'apprendre la programmation en commançant avec JS. On a utilisé le canvas pour réaliser le jeu.</p>
+                        <div className="projet__stack">
+                        <ul className='home__logo__skills'>
+                        <li><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNmN2RmMWUiIGQ9Ik02LDQyVjZoMzZ2MzZINnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDAwMDAxIiBkPSJNMjkuNTM4LDMyLjk0N2MwLjY5MiwxLjEyNCwxLjQ0NCwyLjIwMSwzLjAzNywyLjIwMWMxLjMzOCwwLDIuMDQtMC42NjUsMi4wNC0xLjU4NSBjMC0xLjEwMS0wLjcyNi0xLjQ5Mi0yLjE5OC0yLjEzM2wtMC44MDctMC4zNDRjLTIuMzI5LTAuOTg4LTMuODc4LTIuMjI2LTMuODc4LTQuODQxYzAtMi40MSwxLjg0NS00LjI0NCw0LjcyOC00LjI0NCBjMi4wNTMsMCwzLjUyOCwwLjcxMSw0LjU5MiwyLjU3M2wtMi41MTQsMS42MDdjLTAuNTUzLTAuOTg4LTEuMTUxLTEuMzc3LTIuMDc4LTEuMzc3Yy0wLjk0NiwwLTEuNTQ1LDAuNTk3LTEuNTQ1LDEuMzc3IGMwLDAuOTY0LDAuNiwxLjM1NCwxLjk4NSwxLjk1MWwwLjgwNywwLjM0NEMzNi40NTIsMjkuNjQ1LDM4LDMwLjgzOSwzOCwzMy41MjNDMzgsMzYuNDE1LDM1LjcxNiwzOCwzMi42NSwzOCBjLTIuOTk5LDAtNC43MDItMS41MDUtNS42NS0zLjM2OEwyOS41MzgsMzIuOTQ3eiBNMTcuOTUyLDMzLjAyOWMwLjUwNiwwLjkwNiwxLjI3NSwxLjYwMywyLjM4MSwxLjYwMyBjMS4wNTgsMCwxLjY2Ny0wLjQxOCwxLjY2Ny0yLjA0M1YyMmgzLjMzM3YxMS4xMDFjMCwzLjM2Ny0xLjk1Myw0Ljg5OS00LjgwNSw0Ljg5OWMtMi41NzcsMC00LjQzNy0xLjc0Ni01LjE5NS0zLjM2OCBMMTcuOTUyLDMzLjAyOXoiPjwvcGF0aD4KPC9zdmc+" title="JavaScript"/></li>
+                         </ul>
+                        </div>
+                        <div className="projet__link">
+                            <a href="https://github.com/KevinKuch/1J1_first_game" target="_blank" rel="noreferrer" >
+                                Github
+                                <i className="uil uil-github"></i>
+                            </a>
+                            <a href="https://kevinkuch.github.io/1J1_first_game/" target="_blank" rel="noreferrer">
+                                Demo
+                                <i className="uil uil-external-link-alt"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
