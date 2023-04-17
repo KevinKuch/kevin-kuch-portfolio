@@ -1,16 +1,22 @@
-
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+
 export default function Data({}) {
 
 
     return (
         <div className='home__data'>
-            <h1 className='home__title'>Kevin Kuch
-            </h1>
-            <h3 className="home__subtitle">Développeur Front-end</h3>
-            <p className="home__description">
-                Je suis un étudiant de deuxième année en technique d'intégration multimédia au Collège de Maisonneuve. 
-            </p>
+            <Fade left cascade light>
+                <div>
+                    <h1 className='home__title'>Kevin Kuch
+                    </h1>
+                    <h3 className="home__subtitle">Développeur Front-end</h3>
+                    <p className="home__description">
+                        Je suis un étudiant de deuxième année en technique d'intégration multimédia au Collège de Maisonneuve. 
+                    </p>
+                </div>
+            </Fade>
+            <Fade bottom cascade>
             <div className="home__skills">
                 <ul className='home__logo__skills'>
                     
@@ -21,6 +27,7 @@ export default function Data({}) {
                     <li><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNmMDYyOTIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI0LjA0Miw0LjAzMkMzNS4wNjUsNC4wMzIsNDQsMTIuOTY3LDQ0LDIzLjk5CWMwLDExLjAyMi04LjkzNSwxOS45NTgtMTkuOTU4LDE5Ljk1OGMtMTEuMDIyLDAtMTkuOTU4LTguOTM1LTE5Ljk1OC0xOS45NThDNC4wODUsMTIuOTY3LDEzLjAyLDQuMDMyLDI0LjA0Miw0LjAzMkwyNC4wNDIsNC4wMzJ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzYuNTYxLDEyLjU3NGMtMC45MDQtMy41NDUtNi43ODEtNC43MS0xMi4zNDMtMi43MzRjLTMuMzEsMS4xNzYtNi44OTQsMy4wMjItOS40NzEsNS40MzIgYy0zLjA2NCwyLjg2Ni0zLjU1Miw1LjM2LTMuMzUxLDYuNDAyYzAuNzEsMy42NzcsNS43NDksNi4wODEsNy44Miw3Ljg2NXYwLjAxMWMtMC42MTEsMC4zMDEtNS4wODEsMi41NjMtNi4xMjcsNC44NzYgYy0xLjEwNCwyLjQ0LDAuMTc2LDQuMTkxLDEuMDIzLDQuNDI3YzIuNjI1LDAuNzMsNS4zMTgtMC41ODMsNi43NjYtMi43NDJjMS4zOTctMi4wODQsMS4yODEtNC43NzQsMC42NzQtNi4xMTMgYzAuODM3LTAuMjIxLDEuODE0LTAuMzIsMy4wNTQtMC4xNzVjMy41MDEsMC40MDksNC4xODgsMi41OTUsNC4wNTYsMy41MWMtMC4xMzEsMC45MTUtMC44NjYsMS40MTgtMS4xMTEsMS41NyBjLTAuMjQ2LDAuMTUyLTAuMzIsMC4yMDUtMC4zLDAuMzE3YzAuMDMsMC4xNjQsMC4xNDMsMC4xNTgsMC4zNTMsMC4xMjNjMC4yODgtMC4wNDksMS44MzgtMC43NDQsMS45MDUtMi40MzMgYzAuMDg0LTIuMTQ0LTEuOTctNC41NDItNS42MDgtNC40OGMtMS40OTgsMC4wMjYtMi40NCwwLjE2OC0zLjEyMSwwLjQyMmMtMC4wNS0wLjA1Ny0wLjEwMi0wLjExNC0wLjE1NC0wLjE3MSBjLTIuMjQ5LTIuNC02LjQwNy00LjA5Ny02LjIzMS03LjMyM2MwLjA2NC0xLjE3MywwLjQ3Mi00LjI2MSw3Ljk4OS04LjAwN2M2LjE1OC0zLjA2OSwxMS4wODgtMi4yMjQsMTEuOTQtMC4zNTMgYzEuMjE3LDIuNjc0LTIuNjM1LDcuNjQzLTkuMDMsOC4zNmMtMi40MzcsMC4yNzMtMy43Mi0wLjY3MS00LjAzOS0xLjAyM2MtMC4zMzYtMC4zNy0wLjM4Ni0wLjM4Ny0wLjUxMS0wLjMxNyBjLTAuMjA0LDAuMTEzLTAuMDc1LDAuNDQsMCwwLjYzNWMwLjE5MSwwLjQ5NywwLjk3NSwxLjM3OCwyLjMxLDEuODE3YzEuMTc1LDAuMzg2LDQuMDM2LDAuNTk3LDcuNDk2LTAuNzQxIEMzNC40MjQsMjAuMjI5LDM3LjQ1LDE2LjA1OSwzNi41NjEsMTIuNTc0eiBNMjAuMDc2LDMwLjYzOGMwLjI5LDEuMDc0LDAuMjU4LDIuMDc2LTAuMDQxLDIuOTgzYy0wLjAzMywwLjEwMS0wLjA3LDAuMi0wLjExLDAuMjk5IGMtMC4wNCwwLjA5OC0wLjA4MywwLjE5Ni0wLjEyOSwwLjI5MmMtMC4yMzEsMC40OC0wLjU0MiwwLjkyOS0wLjkyMiwxLjM0NGMtMS4xNiwxLjI2NS0yLjc4LDEuNzQzLTMuNDc0LDEuMzQgYy0wLjc1LTAuNDM1LTAuMzc0LTIuMjE4LDAuOTctMy42NGMxLjQ0Ni0xLjUyOSwzLjUyNy0yLjUxMiwzLjUyNy0yLjUxMmwtMC4wMDMtMC4wMDZDMTkuOTU0LDMwLjcwNSwyMC4wMTUsMzAuNjcyLDIwLjA3NiwzMC42Mzh6Ij48L3BhdGg+Cjwvc3ZnPg==" title="Sass/Scss"/></li>
                 </ul>
             </div>
+            </Fade>
         </div>
     );
 }

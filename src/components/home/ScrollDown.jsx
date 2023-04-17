@@ -1,10 +1,10 @@
-
+import Fade from 'react-reveal/Fade';
 export default function ScrollDown({}) {
 
 
     return (
         <div className="home__scroll">
-            
+            <Fade bottom >
             <a href="#about" className="home__scroll-button button--flex">
                 <svg
                 width="32px"
@@ -44,6 +44,7 @@ export default function ScrollDown({}) {
                 <span className="home__scroll-name">Scroll Down</span>
                 <i className="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
+            </Fade>
         </div>
     );
 }
