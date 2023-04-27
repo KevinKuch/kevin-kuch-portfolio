@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kevin-kuch-portfolio/static/css/main.2768fec1.css",
-    "main.js": "/kevin-kuch-portfolio/static/js/main.b0b30999.js",
+    "main.js": "/kevin-kuch-portfolio/static/js/main.492c300d.js",
     "static/media/projet_1.jpg": "/kevin-kuch-portfolio/static/media/projet_1.4532c07f99463a10dc1f.jpg",
     "static/media/projet_3.jpg": "/kevin-kuch-portfolio/static/media/projet_3.40039e28f0e802be810c.jpg",
     "static/media/projet_2.jpg": "/kevin-kuch-portfolio/static/media/projet_2.38b6af8cf4149eb2971a.jpg",
@@ -10,10 +10,10 @@
     "static/media/Kuch_Kevin_cv1.pdf": "/kevin-kuch-portfolio/static/media/Kuch_Kevin_cv1.12ac47da94e28c65bc34.pdf",
     "index.html": "/kevin-kuch-portfolio/index.html",
     "main.2768fec1.css.map": "/kevin-kuch-portfolio/static/css/main.2768fec1.css.map",
-    "main.b0b30999.js.map": "/kevin-kuch-portfolio/static/js/main.b0b30999.js.map"
+    "main.492c300d.js.map": "/kevin-kuch-portfolio/static/js/main.492c300d.js.map"
   },
   "entrypoints": [
     "static/css/main.2768fec1.css",
-    "static/js/main.b0b30999.js"
+    "static/js/main.492c300d.js"
   ]
 }
