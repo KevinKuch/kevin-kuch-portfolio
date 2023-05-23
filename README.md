@@ -1,5 +1,5 @@
-# Mon Portefolio📖
-### Ceci est mon portefolio que j'ai codé avec ReactJS
+# Mon Portfolio📖
+### Ceci est mon portfolio que j'ai codé avec ReactJS
 
 ## Vous pouvez le visualiser [ici](https://kevinkuch.github.io/kevin-kuch-portfolio/)
 
