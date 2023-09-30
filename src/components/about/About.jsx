@@ -22,7 +22,7 @@ export default function About({}) {
               </Fade>
               <Fade right cascade>
                   <div className="about__data">
-                      <p className="about__description">Je suis un développeur Front-end passionné par l'expérience utilisateur et l'esthétique des sites web. Actuellement étudiant en 2e année au Collège de Maisonneuve en technique d'intégration multimédia, j'apprends constamment de nouvelles compétences pour améliorer mes projets web réactives.</p>
+                      <p className="about__description">Je suis constamment à la recherche de nouveaux défis qui me permettent d'élargir mes connaissances dans le domaine du Développement Web. Motiver, persévérer et déterminer, je veux  acquérir  et  développer mes compétences dans un milieu de travail dynamique et stimulant.</p>
                       
                       <a download="" href={CV} className="button button--flex">Download CV 
                       <svg

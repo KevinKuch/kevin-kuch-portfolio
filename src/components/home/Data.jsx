@@ -12,7 +12,7 @@ export default function Data({}) {
                     </h1>
                     <h3 className="home__subtitle">Développeur Front-end</h3>
                     <p className="home__description">
-                        Je suis un étudiant de deuxième année en technique d'intégration multimédia au Collège de Maisonneuve. 
+                        Finissant en Techniques d'Intégration Multimédia au Collège de Maisonneuve. 
                     </p>
                 </div>
             </Fade>

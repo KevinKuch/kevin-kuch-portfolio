@@ -13,6 +13,26 @@
     width: 100%;
 }
 
+.projet-1a {
+    height: 30rem;
+}
+
+.projet-1a div:nth-child(2)  {
+    height: 25rem;
+}
+
+.projet-1a img {
+    height: 100%;
+    width: 100%;
+}
+
+.projet-4 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
 .pro {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -36,6 +56,7 @@
     width:100%;
     transform: translateY(0);
     transition: 4s ease-out;
+    overflow: hidden;
 }
 
 .projet__img:hover img {
@@ -53,6 +74,7 @@
     align-items: center;
     text-align: center;
     width: 20rem;
+    height: 20rem;
     color: var(--title-color);
     margin-bottom: var(--mb-2);
 }
