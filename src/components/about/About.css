@@ -37,6 +37,7 @@
     
     .about__data {
         text-align: center;
+        gap: 1rem;
     }
 
     .about__description {
