@@ -12,6 +12,7 @@ export default function About({}) {
         <section className='About section' id='about'>
             <Fade top cascade>
               <div>
+                <h1>Test github merge branch</h1>
                 <h2 className="section__title">À propos</h2>
                 <span className="section__subtitle">Qui suis-je?</span>
               </div>
