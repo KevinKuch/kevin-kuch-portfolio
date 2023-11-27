@@ -29,7 +29,7 @@ export default function Header() {
                 </li>
                 <li className="nav__item">
                     <a href="#experiences" className="nav__link">
-                        <i className="uil uil-briefcase-alt nav__icon"></i> Experiences
+                        <i className="uil uil-briefcase-alt nav__icon"></i> Expériences
                     </a>
                 </li>
                 <li className="nav__item">
