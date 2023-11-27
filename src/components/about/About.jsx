@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import AboutImg from '../../assets/about.jpg';
 import CV from '../../assets/Kuch_Kevin_cv.pdf';
-import Fade from 'react-reveal/Fade';
+
 
 
 export default function About({}) {
@@ -10,17 +10,12 @@ export default function About({}) {
 
     return (
         <section className='About section' id='about'>
-            <Fade top cascade>
               <div>
                 <h2 className="section__title">À propos</h2>
                 <span className="section__subtitle">Qui suis-je?</span>
               </div>
-            </Fade>
             <div className="about__container container grid">
-              <Fade left>
                   <img src={AboutImg} alt="d'un portable" className='about__img'/>
-              </Fade>
-              <Fade right cascade>
                   <div className="about__data">
                       <p className="about__description">Je suis constamment à la recherche de nouveaux défis qui me permettent d'élargir mes connaissances dans le domaine du Développement Web. Motiver, persévérer et déterminer, je veux  acquérir  et  développer mes compétences dans un milieu de travail dynamique et stimulant.</p>
                       
@@ -79,7 +74,6 @@ export default function About({}) {
                       </svg>
                       </a>
                   </div>
-              </Fade>
             </div>
         </section>
     );
