@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import AboutImg from '../../assets/about.jpg';
 import CV from '../../assets/Kuch_Kevin_cv.pdf';
+import { RevealY } from '../RevealY';
 
 
 
@@ -10,18 +11,29 @@ export default function About({}) {
 
     return (
         <section className='About section' id='about'>
-              <div>
-                <h2 className="section__title">À propos</h2>
-                <span className="section__subtitle">Qui suis-je?</span>
+              <div className='section__about__container'>
+                <RevealY>
+                  <h2 className="section__title">À propos</h2>
+                </RevealY>
+                <RevealY>
+                  <span className="section__subtitle">Qui suis-je?</span>
+                </RevealY>
               </div>
+
             <div className="about__container container grid">
+                <RevealY>
                   <img src={AboutImg} alt="d'un portable" className='about__img'/>
+                </RevealY>
                   <div className="about__data">
+                    <RevealY>
                       <p className="about__description">Je suis constamment à la recherche de nouveaux défis qui me permettent d'élargir mes
                         connaissances dans le domaine du <strong>Développement Web.</strong> Animé par la motivation, la
                         persévérance et la détermination, mon objectif est d'acquérir et de développer mes compétences
                         au sein d'un environnement professionnel dynamique et stimulant.
                         .</p>
+                    </RevealY>
+                    <RevealY>
+                    
                       <div className='about__cv'>
                           <a download="Kuch_Kevin_cv.pdf" href={CV} className="button button--flex">Download CV 
                           <svg
@@ -78,7 +90,7 @@ export default function About({}) {
                           </svg>
                           </a>
                       </div>
-                      
+                      </RevealY>
                   </div>
             </div>
         </section>

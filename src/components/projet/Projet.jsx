@@ -14,6 +14,9 @@ import JsIcon from '../../assets/javascript-icon.svg'
 import TypeIcon from '../../assets/typescript-icon.svg'
 import Tailcss from '../../assets/tailwind-icon.svg'
 
+import { RevealY } from '../RevealY';
+import { RevealX } from '../RevealX';
+
 
 
 export default function Projet({}) {
@@ -21,8 +24,12 @@ export default function Projet({}) {
 
     return (
         <section className='Projet section' id='projet'>
-            <h2 className="section__title">Mes projets</h2>
-            <span className='section__subtitle'>Mes projets web tout au long de mon parcours scolaire</span>
+            <RevealY>
+                <h2 className="section__title">Mes projets</h2>
+            </RevealY>
+            <RevealY>
+                <span className='section__subtitle'>Mes projets web tout au long de mon parcours scolaire</span>
+            </RevealY>
 
             <div className="projet__container container grid">
 
@@ -64,8 +71,8 @@ export default function Projet({}) {
                 {/* ************************************************************************************************ */}
                 <div className="pro projet__content projet-1b">
                     <div className='projet__text'>
-                        <h3 className='projet__title'>Site d'exploration animation</h3>
-                        <p className='projet__description'>Ceci est un site Web pour une entreprise innovante et imaginaire, conçu pour explorer les bibliothèques GSAP et Framer Motion afin de créer des animations.</p>
+                        <h3 className='projet__title'>Site d'exploration des animations</h3>
+                        <p className='projet__description'>Ceci est un site Web pour une entreprise innovante et imaginaire, conçu pour explorer les bibliothèques <strong>GSAP</strong> et <strong>Framer Motion</strong> afin de créer des animations.</p>
                         <div className="projet__stack">
                             {/* svg */}
                         <ul className='home__logo__skills'>
@@ -75,11 +82,11 @@ export default function Projet({}) {
                          </ul>
                         </div>
                         <div className="projet__link">
-                            <a href="https://github.com/KevinKuch/TP_site_astronomie" target="_blank" rel="noreferrer" >
+                            <a href="https://github.com/KevinKuch/exploration-animation" target="_blank" rel="noreferrer" >
                                 Github
                                 <i className="uil uil-github"></i>
                             </a>
-                            <a href="https://kevinkuch.github.io/TP_site_astronomie/" target="_blank" rel="noreferrer">
+                            <a href="https://exploration-animation-jqfr.vercel.app/" target="_blank" rel="noreferrer">
                                 Demo
                                 <i className="uil uil-external-link-alt"></i>
                             </a>
@@ -87,11 +94,12 @@ export default function Projet({}) {
                     </div>
 
                     <div className='projet__img'>
-                        <a href="https://kevinkuch.github.io/TP_site_astronomie/" target="_blank" rel="noreferrer">
-                            <img src={ProjetImg1b} alt="website" />
+                        <a href="https://exploration-animation-jqfr.vercel.app/" target="_blank" rel="noreferrer">
+                            <img src={ProjetImg1b} alt="Site web Évènements" />
                         </a>
                     </div>
                 </div>
+                
 
                 {/* ******************************************************************************************* */}
                 <div className="pro projet__content projet-1">

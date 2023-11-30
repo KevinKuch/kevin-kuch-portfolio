@@ -43,9 +43,9 @@
 }
 
 .projet__img {
-    background-color: var(--body-color);
+    background-color: #fff;
     border-radius: 1.7rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
     height: auto;
     overflow: hidden;
     width: 34rem;
