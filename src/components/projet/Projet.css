@@ -89,6 +89,7 @@
     color: var(--text-color);
     margin-bottom: var(--mb-5);
     font-size: var(--medium-font-size);
+    text-align: justify;
 }
 
 .projet__stack {
