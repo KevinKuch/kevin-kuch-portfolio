@@ -26,11 +26,7 @@ export default function About({}) {
                 </RevealY>
                   <div className="about__data">
                     <RevealY>
-                      <p className="about__description">Je suis constamment à la recherche de nouveaux défis qui me permettent d'élargir mes
-                        connaissances dans le domaine du <strong>Développement Web.</strong> Animé par la motivation, la
-                        persévérance et la détermination, mon objectif est d'acquérir et de développer mes compétences
-                        au sein d'un environnement professionnel dynamique et stimulant.
-                        .</p>
+                      <p className="about__description">En quête constante de nouveaux défis pour élargir mes compétences dans le domaine du <strong>Développement Web</strong>, je cherche à progresser au sein d'un environnement dynamique et stimulant. Mon objectif est d'acquérir et de perfectionner mes compétences.</p>
                     </RevealY>
                     <RevealY>
                     

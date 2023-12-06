@@ -55,10 +55,9 @@ export default function Data({}) {
                 className='home__logo__skills'>
                     <motion.li variants={itemVariants}><img src={ReactIcon} alt="React icon" /></motion.li>
                     <motion.li variants={itemVariants}><img src={NextIcon} alt="Next.js icon" /></motion.li>
-                    <motion.li variants={itemVariants}><img src={SassIcon} alt="Sass icon" /></motion.li>
-                    <motion.li variants={itemVariants}><img src={LessIcon} alt="Less icon" /></motion.li>
                     <motion.li variants={itemVariants}><img src={TypeIcon} alt="Typescript icon" /></motion.li>
                     <motion.li variants={itemVariants}><img src={Tailcss} alt="Tailwindcss icon" /></motion.li>
+                    <motion.li variants={itemVariants}><img src={SassIcon} alt="Sass icon" /></motion.li>
                 </motion.ul>
             </div>
         </div>
