@@ -16,7 +16,7 @@ export default function Education({}) {
             <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2021 - ajourd'hui"
+                date="2021 - 2024"
                 iconStyle={{ background: '#767676', color: '#fff' }}
                 icon={<SchoolIcon />}
                 
