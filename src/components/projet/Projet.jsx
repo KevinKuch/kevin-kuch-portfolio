@@ -83,7 +83,7 @@ export default function Projet({}) {
                                 Github
                                 <i className="uil uil-github"></i>
                             </a>
-                            <a href="https://exploration-animation-jqfr.vercel.app/" target="_blank" rel="noreferrer">
+                            <a href="https://exploration-animation.vercel.app/" target="_blank" rel="noreferrer">
                                 Demo
                                 <i className="uil uil-external-link-alt"></i>
                             </a>
@@ -91,7 +91,7 @@ export default function Projet({}) {
                     </div>
 
                     <div className='projet__img'>
-                        <a href="https://exploration-animation-jqfr.vercel.app/" target="_blank" rel="noreferrer">
+                        <a href="https://exploration-animation.vercel.app/" target="_blank" rel="noreferrer">
                             <img src={ProjetImg1b} alt="Site web Évènements" />
                         </a>
                     </div>
