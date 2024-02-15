@@ -99,9 +99,8 @@ export default function Projet({}) {
 						<p className="projet__description">
 							Ceci est une page web dédiée aux idoles coréennes qui font de la
 							musique K-pop. En développant cette page web, cela me permet
-							d'apprendre et d'explorer les technologies:{" "}
-							<strong>Next.js</strong>,<strong>TypeScript</strong> et{" "}
-							<strong>TailwindCSS</strong>.
+							d'apprendre et d'explorer les technologies{" "}
+							<strong>TypeScript</strong> et <strong>TailwindCSS</strong>.
 						</p>
 						<div className="projet__stack">
 							<ul className="home__logo__skills">
