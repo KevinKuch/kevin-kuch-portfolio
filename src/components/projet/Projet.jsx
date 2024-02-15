@@ -94,6 +94,7 @@ export default function Projet({}) {
 					</div>
 				</div>
 
+<<<<<<< HEAD
 				{/* <div className="pro projet__content projet-1">
                     <div className='projet__text'>
                         <h3 className='projet__title'>Page web des idols coréen</h3>
@@ -132,9 +133,71 @@ export default function Projet({}) {
 							Ceci est un site Web pour une entreprise innovante et imaginaire,
 							conçu pour explorer les bibliothèques <strong>GSAP</strong> et{" "}
 							<strong>Framer Motion</strong> afin de créer des animations.
+=======
+				<div className="pro projet__content projet-1">
+					<div className="projet__text">
+						<h3 className="projet__title">Page web des idols coréen</h3>
+						<p className="projet__description">
+							Ceci est une page web dédiée aux idoles coréennes qui font de la
+							musique K-pop. En développant cette page web, cela me permet
+							d'apprendre et d'explorer les technologies{" "}
+							<strong>TypeScript</strong> et <strong>TailwindCSS</strong>.
 						</p>
 						<div className="projet__stack">
 							{/* svg */}
+							<ul className="home__logo__skills">
+								<li>
+									<img src={NextIcon} alt="Next icon" />
+								</li>
+								<li>
+									<img src={Tailcss} alt="Twilwindcss icon" />
+								</li>
+								<li>
+									<img src={TypeIcon} alt="Typescript icon" />
+								</li>
+							</ul>
+						</div>
+						<div className="projet__link">
+							<a
+								href="https://github.com/KevinKuch/Website-Idol"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Github
+								<i className="uil uil-github"></i>
+							</a>
+							<a
+								href="https://website-idol.vercel.app/"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Demo
+								<i className="uil uil-external-link-alt"></i>
+							</a>
+						</div>
+					</div>
+					<div className="projet__img">
+						<a
+							href="https://website-idol.vercel.app/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src={ProjetImg1a} alt="Site web des kpops" />
+						</a>
+					</div>
+				</div>
+
+				{/* ************************************************************************************************ */}
+
+				{/* <div className="pro projet__content projet-1b">
+					<div className="projet__text">
+						<h3 className="projet__title">Site d'exploration des animations</h3>
+						<p className="projet__description">
+							Ceci est un site Web pour une entreprise innovante et imaginaire,
+							conçu pour explorer les bibliothèques <strong>GSAP</strong> et{" "}
+							<strong>Framer Motion</strong> afin de créer des animations.
+						</p>
+						<div className="projet__stack">
 							<ul className="home__logo__skills">
 								<li>
 									<img src={ReactIcon} alt="React icon" />
@@ -176,8 +239,90 @@ export default function Projet({}) {
 							<img src={ProjetImg1b} alt="Site web Évènements" />
 						</a>
 					</div>
+				</div> */}
+
+				{/* ******************************************************************************************* */}
+				<div className="pro projet__content projet-1">
+					<div className="projet__text">
+						<h3 className="projet__title">Site d'astronomie</h3>
+						<p className="projet__description">
+							Refonte site web UI/UX dans le cadre du cours de Design &
+							Interactivité. Nouveau design, contenu optimisé et fonctionnalités
+							interactives ajoutées pour améliorer l'expérience utilisateur.
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
+						</p>
+						<div className="projet__stack">
+							{/* svg */}
+							<ul className="home__logo__skills">
+								<li>
+<<<<<<< HEAD
+									<img src={ReactIcon} alt="React icon" />
+								</li>
+								<li>
+									<img src={NextIcon} alt="Next.js icon" />
+								</li>
+								<li>
+									<img src={SassIcon} alt="Sass icon" />
+=======
+									<img src={HtmlIcon} alt="" />
+								</li>
+								<li>
+									<img src={LessIcon} alt="" />
+								</li>
+								<li>
+									<img src={JsIcon} alt="" />
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
+								</li>
+							</ul>
+						</div>
+						<div className="projet__link">
+							<a
+<<<<<<< HEAD
+								href="https://github.com/KevinKuch/exploration-animation"
+=======
+								href="https://github.com/KevinKuch/TP_site_astronomie"
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
+								target="_blank"
+								rel="noreferrer"
+							>
+								Github
+								<i className="uil uil-github"></i>
+							</a>
+							<a
+<<<<<<< HEAD
+								href="https://exploration-animation.vercel.app/"
+=======
+								href="https://kevinkuch.github.io/TP_site_astronomie/"
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
+								target="_blank"
+								rel="noreferrer"
+							>
+								Demo
+								<i className="uil uil-external-link-alt"></i>
+							</a>
+						</div>
+					</div>
+
+					<div className="projet__img">
+						<a
+<<<<<<< HEAD
+							href="https://exploration-animation.vercel.app/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src={ProjetImg1b} alt="Site web Évènements" />
+=======
+							href="https://kevinkuch.github.io/TP_site_astronomie/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src={ProjetImg1} alt="website" />
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
+						</a>
+					</div>
 				</div>
 
+<<<<<<< HEAD
 				{/* ******************************************************************************************* */}
 				<div className="pro projet__content projet-1">
 					<div className="projet__text">
@@ -198,12 +343,43 @@ export default function Projet({}) {
 								</li>
 								<li>
 									<img src={JsIcon} alt="" />
+=======
+				{/* ********************************************************  */}
+				<div className="pro projet__content projet-2">
+					<div className="projet__img">
+						<a
+							href="https://kevinkuch.github.io/ToDoApp/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src={ProjetImg2} alt="To do app" />
+						</a>
+					</div>
+					<div className="projet__text">
+						<h3 className="projet__title">To do app</h3>
+						<p className="projet__description">
+							Un todo app réalisé avec React js et Sass. Ceci me permet
+							d'apprendre l'utilisation de la technologie React et ses hooks
+							comme le useState et useEffect.
+						</p>
+						<div className="projet__stack">
+							<ul className="home__logo__skills">
+								<li>
+									<img src={ReactIcon} alt="React icon" />
+								</li>
+								<li>
+									<img src={SassIcon} alt="Sass icon" />
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
 								</li>
 							</ul>
 						</div>
 						<div className="projet__link">
 							<a
+<<<<<<< HEAD
 								href="https://github.com/KevinKuch/TP_site_astronomie"
+=======
+								href="https://github.com/KevinKuch/ToDoApp"
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -211,7 +387,11 @@ export default function Projet({}) {
 								<i className="uil uil-github"></i>
 							</a>
 							<a
+<<<<<<< HEAD
 								href="https://kevinkuch.github.io/TP_site_astronomie/"
+=======
+								href="https://kevinkuch.github.io/ToDoApp/"
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -220,6 +400,7 @@ export default function Projet({}) {
 							</a>
 						</div>
 					</div>
+<<<<<<< HEAD
 
 					<div className="projet__img">
 						<a
@@ -281,6 +462,10 @@ export default function Projet({}) {
 					</div>
 				</div>
 
+=======
+				</div>
+
+>>>>>>> e4a0f20f48108d68586a4c0defdb7332c8dc6334
 				{/* ********************************************************  */}
 				<div className="pro projet__content projet-4">
 					<div className="projet__text">
