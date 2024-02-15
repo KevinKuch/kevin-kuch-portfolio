@@ -93,7 +93,7 @@ export default function Projet({}) {
 					</div>
 				</div>
 
-				<div className="pro projet__content projet-1">
+				{/* <div className="pro projet__content projet-1">
 					<div className="projet__text">
 						<h3 className="projet__title">Page web des idols coréen</h3>
 						<p className="projet__description">
@@ -143,7 +143,7 @@ export default function Projet({}) {
 							<img src={ProjetImg1a} alt="Site web des kpops" />
 						</a>
 					</div>
-				</div>
+				</div> */}
 
 				{/* ************************************************************************************************ */}
 				<div className="pro projet__content projet-1b">
